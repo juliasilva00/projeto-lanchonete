@@ -1,0 +1,40 @@
+body, html {
+    height: 100vh;
+    width: 100vw;
+}
+
+.main {
+    padding: 32px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.table-container {
+    width: 50%;
+}
+
+.bolinha {
+    width: 50%;
+}
+
+.table-container a {
+    margin-bottom: 14px;
+}
+
+.form-container {
+    width: 50%;
+}
+
+fieldset {
+    border: 1px solid lightgray;
+    padding: 9px;
+    margin: 9px 3px;
+}
+
+.btn-space {
+    margin-left: 8px;
+}
